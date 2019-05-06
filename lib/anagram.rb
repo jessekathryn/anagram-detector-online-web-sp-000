@@ -10,7 +10,7 @@ end
 def match(words)
  words.collect do |word|
   if word == words
-    word
+    words
    else
      nil
    end
