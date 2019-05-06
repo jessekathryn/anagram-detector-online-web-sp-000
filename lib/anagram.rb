@@ -7,10 +7,9 @@ def initialize(words)
  @words = words
 end
 
-def match(words)
- matching_letters = []
+def match(words_array)
  @words = words.split("").collect{|l| l.sort}
- @words.each do |word|
+ words_array.each do |word|
   if @words == word
    @words
    else
