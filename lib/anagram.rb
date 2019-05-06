@@ -8,7 +8,7 @@ def initialize(words)
 end
 
 def match(words)
- words.detect do |w|
+ words.split(" ")collect{|w| w.sort}
    %w(words)
    end
   end
