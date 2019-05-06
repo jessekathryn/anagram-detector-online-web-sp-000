@@ -10,7 +10,7 @@ end
 words = []
 
 def match(words)
- words.detect do |w|
+ words =  do |w|
  w.split(" ").collect{|l| l.sort}
  if w == w
    words
