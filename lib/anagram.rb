@@ -12,6 +12,7 @@ words = []
 def match(words)
  words.detect do |w|
    %w(words)
+   words
    end
   end
 end
