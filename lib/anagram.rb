@@ -9,7 +9,7 @@ end
 
 words = []
 
-def match
+def match(words)
  words.detect do |w|
    %w(words)
   end
