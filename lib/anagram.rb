@@ -10,10 +10,10 @@ end
 words = []
 
 def match(words)
- if words.detect do |w|
-   (words)
- else
+ if !words.detect do |w|
    nil
+ else
+   words
    end
   end
  end
