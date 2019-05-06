@@ -1,17 +1,17 @@
 # Your code goes here!
-class EmailParser
+class Anagram
   
-attr_accessor :emails
+attr_accessor :words
 
-def initialize(emails)
- @emails = emails
+def initialize(words)
+ @words = words
 end
 
-emails = []
+words = []
 
-def parse
- @emails = emails.split(/, | /)
- @emails.uniq
+def match
+ @words = words.match
+ @words.uniq
  end
 end
 
