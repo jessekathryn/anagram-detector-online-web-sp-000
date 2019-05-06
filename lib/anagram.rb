@@ -10,9 +10,8 @@ end
 words = []
 
 def match(words)
- if words.detect do |w|
+ words.detect do |w|
    %w(words)
    end
   end
- end
 end
