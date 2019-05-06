@@ -11,7 +11,11 @@ words = []
 
 def match(words)
  words.detect do |w|
- words.match
+ w.split(" ")
+ if w == w
+   words
+ else
+   nil
    end
  end
 end
