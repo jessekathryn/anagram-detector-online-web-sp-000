@@ -8,9 +8,10 @@ def initialize(words)
 end
 
 def match(words)
- words.collect do |word|
+ matching_letters = []
+ words.each do |word|
   if word == words
-    words
+    matching_letters << words
    else
      nil
    end
