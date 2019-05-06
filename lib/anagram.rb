@@ -8,13 +8,6 @@ def initialize(words)
 end
 
 def match(words_array)
- @words = words.split("").collect{|l| l.sort}
- words_array.each do |word|
-  if @words == word
-   @words
-   else
-     nil
-   end
-  end
- end
+ words_array.select {|word| word.split("").sort} == @words.split("").sort}
 end
+ 
