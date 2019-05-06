@@ -9,7 +9,7 @@ end
 
 def match(words)
  words.collect do |word|
-  if word == word
+  if word == words
     word
    else
      nil
