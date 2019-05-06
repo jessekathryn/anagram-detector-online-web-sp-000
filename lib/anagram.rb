@@ -11,7 +11,7 @@ words = []
 
 def match(words)
  words.detect do |w|
- w.split(" ").collect {|
+ w.split(" ").collect{|l| l
  if w == w
    words
  else
