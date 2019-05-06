@@ -8,7 +8,11 @@ def initialize(words)
 end
 
 def match(words)
- words.detect 
+ words.detect do |word|
+  if word == word
+    word
+   else
+     nil
    end
   end
 end
