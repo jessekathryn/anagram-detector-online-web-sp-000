@@ -10,8 +10,8 @@ end
 words = []
 
 def match
- @words = words.match
- @words.uniq
+ words.detect do |w|
+   
  end
 end
 
