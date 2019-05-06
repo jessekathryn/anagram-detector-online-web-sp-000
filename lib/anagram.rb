@@ -11,9 +11,7 @@ words = []
 
 def match(words)
  if !words.detect do |w|
-   nil
- else
-   words
+   %w(words)
    end
   end
  end
