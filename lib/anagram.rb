@@ -8,8 +8,8 @@ def initialize(words)
 end
 
 def match(words)
- words.split(" ")collect{|w| w.sort}
-   %w(words)
+ words = words.split(" ")collect{|w| w.sort}
+   #%w(words)
    end
   end
 end
