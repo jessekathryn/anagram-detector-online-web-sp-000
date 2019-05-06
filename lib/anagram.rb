@@ -10,7 +10,7 @@ end
 def match(words)
  matching_letters = []
  @words.each do |word|
-  if @words == word
+  if @words != word
     word.join("")
     matching_letters << word
    else
