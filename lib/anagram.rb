@@ -9,7 +9,7 @@ end
 
 def match(words)
  matching_letters = []
- words.each do |word|
+ @words.each do |word|
   if words == word
     matching_letters << word
    else
